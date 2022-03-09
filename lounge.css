@@ -1,0 +1,147 @@
+    body {
+        font-size: small;
+        /*установка размера шрифта по ключевому слову small*/
+        font-family: Verdana, Helvetica, Arial, sans-serif;
+        line-height: 1.6em;
+        /*установка межстрочного интервала (интерлиньяж)*/
+    }
+
+    h1,
+    h2 {
+        color: #007e7e;
+    }
+
+    h1 {
+        font-size: 150%;
+    }
+
+    /*border-bottom: 1px solid black; Используется подчеркивание заголовка через нижнюю границу блока, на всю длину страницы*/
+    h2 {
+        font-size: 130%;
+    }
+
+    /*text-decoration: underline; Используется подчеркивание заголовка через специальное свойство, на всю длину заголовка*/
+    p {
+        color: maroon;
+    }
+
+    p.blueberry {
+        color: purple;
+    }
+
+    p.greentea {
+        color: green;
+    }
+
+    /*Если .greentea - правило стиля применяется ко всем элементам класса. Также элемент может принадледать нескольким классам*/
+    p.raspberry {
+        color: blue;
+    }
+
+    #guarantee {
+        border-color: white;
+        /*Цвет границы*/
+        border-width: 1px;
+        /*Ширина границы. Ключевые слова или пиксели*/
+        border-style: dashed;
+        /*Вид границы. Всего есть 8 типов*/
+        background-color: #a7cece;
+        /*Цвет фона*/
+        padding: 25px;
+        /*Добавление отступов со всех 4-х сторон*/
+        padding-left: 80px;
+        /*Добавление дополнительного отступа с лева*/
+        margin: 30px;
+        /*Добавление полей со всех сторон*/
+        margin-right: 250px;
+        font-family: Georgia, "Times New Roman", Times, serif;
+        /*Стиль текста содержимого*/
+        line-height: 1.9em;
+        /*Межстрочный интервал*/
+        color: #444444;
+        /*Цвет содержимого*/
+        background-image: url(images/background.gif);
+        background-repeat: no-repeat;
+        /*без повторения изображения*/
+        background-position: top left;
+        /*расположение - верхний левый угол*/
+    }
+
+    #elixirs {
+        border-color: #007e7e;
+        border-width: thin;
+        border-style: solid;
+        /*Сокращенно border: thin solid #007e7e; можно в любой последовательности*/
+        width: 200px;
+        padding-right: 20px;
+        padding-bottom: 20px;
+        padding-left: 20px;
+        /*Сокращенно padding: 0 px, 20px, 20px, 20px;
+    Если размер отсутов одинаковый padding: 20px;
+    Если равны верхнее с нижним, а правое с левым padding: 0px, 20px;
+    */
+        margin-left: 20px;
+        /*Пименимы такие же сокращения как и для padding*/
+        text-align: center;
+        /*Применяется только для, блочных элементов, кроме отдельного img, выравнивает все содержимое элемента div*/
+        background-image: url(images/cocktail.gif);
+        background-repeat: repeat-x;
+        float: right;
+        /*Сокращенно background: url(images/cocktail.gif) repeat-x; можно в любой последовательности*/
+    }
+
+    #elixirs h2 {
+        color: black;
+    }
+
+    #elixirs {
+        color: #d12c47;
+    }
+
+    #elixirs {
+        line-height: 1;
+    }
+
+    #pravo {
+        font-size: 50%;
+        text-align: center;
+        line-height: normal;
+        margin-top: 400px;
+    }
+
+    .cd {
+        font-style: italic;
+    }
+
+    .artist {
+        font-weight: bold;
+    }
+
+    #elixirs a:link {
+        color: #007e7e;
+    }
+
+    #elixirs a:visited {
+        color: #333333;
+    }
+
+    #elixirs a:hover {
+        background: #f88396;
+        color: #0d5353;
+    }
+
+    #elixirs a:focus {
+        color: blue;
+    }
+
+    #elixirs a:active {
+        color: black;
+    }
+
+    a:link {
+        color: #007e7e;
+    }
+
+    a:visited {
+        color: #333333;
+    }
